@@ -1,0 +1,5 @@
+项目名称：人工智能对对联系统
+主要功能：实现用户输入中文上联，系统对应对出下联并显示
+实现流程：
+打开couplet.py并配置文件位置和hyperparams。然后运行couplet.py训练模型。可以在Tensorbloard看到训练损失和蓝色分数。learning_rate当发现丢失停止时，可能需要重新配置。
+运行训练的模型，打开server.py并配置vocab_file和model_dirparams。然后运行python server.py将启动可以播放联接的Web服务。（或者http://localhost:5000/chat/couplet/+“上联”可以进行测试）
